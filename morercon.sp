@@ -8,7 +8,7 @@ new Handle:g_HostCVar = INVALID_HANDLE;
 new Handle:g_PortCVar = INVALID_HANDLE;
 new g_NextPacketID = 1;
 
-#define PACKET_MAX_SIZE 2048
+#define PACKET_MAX_SIZE 4096
 
 #define STATE_AUTHING 0
 #define STATE_COMMANDEXEC 1
